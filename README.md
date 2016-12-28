@@ -22,8 +22,7 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-* [ ] List anything else that you can get done to improve the functionality!
-
+* [x] Display a list of common tipping practices and percentages
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
