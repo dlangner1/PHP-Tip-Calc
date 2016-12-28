@@ -1,0 +1,59 @@
+body {
+    color: #FFFFFF;
+}
+
+body, #error {
+    background-color: #424242;
+}
+
+#bill-amount input {
+    height: 25px;
+    font-size: 20pt;
+}
+
+#bill-amount, #tip-percent {
+    margin-bottom: 20px;
+}
+
+#error, #results {
+    background-color: #424242;
+    border: 2px solid white;
+    color: white;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 70%;
+}
+
+fieldset {
+    background-color: #8A0651;
+    font-size: 25pt;
+    margin: auto;
+    width: 40%;
+}
+
+h1 {
+    font-size: 25pt;
+}
+
+h1, #submit {
+    text-align: center;
+}
+
+input[type=radio] {
+    width: 10%;
+    height: 2em;
+}
+
+#split-bill input, .split-word {
+    font-size: 15pt;
+}
+
+#split-bill input {
+    height: 20px;
+}
+
+#tip-percent input{
+    margin-top: 30px;
+}
