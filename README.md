@@ -4,7 +4,7 @@ TipThem is a tip calculator PHP page.
 
 Submitted by: Dustin Langner
 
-Time spent: 5 hours spent in total
+Time spent: 7 hours spent in total
 
 ## User Stories
 
