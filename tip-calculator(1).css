@@ -1,8 +1,5 @@
-body {
-    color: #FFFFFF;
-}
-
-body, #error {
+body, #error, #results  {
+    color: white;
     background-color: #424242;
 }
 
@@ -15,30 +12,41 @@ body, #error {
     margin-bottom: 20px;
 }
 
-#error, #results {
-    background-color: #424242;
-    border: 2px solid white;
-    color: white;
-    margin-top: 20px;
+fieldset, #error, #results, #info {
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
+}
+
+#error, #results, #info {
+    border: 2px solid white;
+    margin-top: 20px;
     width: 70%;
+}
+
+#error, h1, #results, #submit, #info {
+    text-align: center;
+}
+
+fieldset, h1 {
+    font-size: 25pt;
 }
 
 fieldset {
     background-color: #8A0651;
-    font-size: 25pt;
-    margin: auto;
     width: 40%;
 }
 
-h1 {
-    font-size: 25pt;
+#info {
+    width: 60%;
+    overflow: hidden;
 }
 
-h1, #submit {
-    text-align: center;
+#info div {
+    float: left;
+}
+
+.info-headers {
+    text-decoration: underline;
 }
 
 input[type=radio] {

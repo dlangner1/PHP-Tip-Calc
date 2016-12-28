@@ -74,6 +74,38 @@
         return false;
     }
 
+    function insert_tip_info() { ?>
+        <div id="info">
+            <span id="info-title">Common Tipping Practices</span>
+            <br />
+            <div>
+                <span class="info-headers">Food</span>
+                <ul>
+                    <li>Bartender: $1/drink or 15% of total</li>
+                    <li>Delivery: 10%</li>
+                    <li>Waiter: 10% to 20% of total</li>
+                </ul>
+            </div>
+            <div>
+                <span class="info-headers">Hotel Staff</span>
+                <ul>
+                    <li>Room Service: $5 minimum</li>
+                    <li>Valet: $2 to $5</li>
+                    <li>Housekeeper: $2 to $5 daily</li>
+                </ul>
+            </div>
+            <div>
+                <span class="info-headers">Personal</span>
+                <ul>
+                    <li>Barber/Hairstylist: 15% to 20%</li>
+                    <li>Manicurist: 15%</li>
+                    <li>Spa Service: 15% to 20%</li>
+                </ul>
+            </div>
+        </div>
+    <?php
+    }
+
     function insert_top_page() { ?>
         <!DOCTYPE html>
         <html lang = "en">
@@ -83,7 +115,6 @@
             <link href="tip-calculator.css" rel="stylesheet" type="text/css">
         </head>
         <body>
-
         <div id="calc-container">
         <h1>TipThem</h1>
         <form id="calculateform" action="calculate-tip.php" method="post">
@@ -131,6 +162,7 @@
         </fieldset>
         </form>
         </div>
+        <?php insert_tip_info() ?>
         </body>
         </html>
         <?php
