@@ -85,7 +85,7 @@
         <body>
 
         <div id="calc-container">
-        <h1>Tip Calculator</h1>
+        <h1>TipThem</h1>
         <form id="calculateform" action="calculate-tip.php" method="post">
         <fieldset>
         <div id="bill-amount">
